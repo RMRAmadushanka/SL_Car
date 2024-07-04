@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "sl car backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMRAmadushanka/SL_Car.git"
+  },
+  "author": "Rolan Rathnayaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RMRAmadushanka/SL_Car/issues"
+  },
+  "homepage": "https://github.com/RMRAmadushanka/SL_Car#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "winston": "^3.13.0"
+  }
+}
